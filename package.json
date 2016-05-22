@@ -16,7 +16,7 @@
     "author": "ci@marvelouspixels.com",
     "license": "MIT",
     "scripts": {
-        "pretest": "jshint --verbose ./index.js ./lib/* ./tests/*",
+        "pretest": "jshint --verbose ./index.js ./lib/*",
         "test": "echo 'Test is not ready!'"
     },
     "dependencies": {
