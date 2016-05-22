@@ -1,0 +1,31 @@
+{
+    "name": "expressojs",
+    "version": "0.0.1",
+    "description": "Modular web framework built on Express.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/expressojs/expressojs"
+    },
+    "keywords": [
+        "ExpressoJS",
+        "Web Application",
+        "Framework",
+        "NodeJS",
+        "ExpressJS"
+    ],
+    "author": "ci@marvelouspixels.com",
+    "license": "MIT",
+    "scripts": {
+        "pretest": "jshint --verbose ./index.js ./lib/* ./tests/*",
+        "test": "echo 'Test is not ready!'"
+    },
+    "dependencies": {
+        "express": "4.x.x"
+    },
+    "devDependencies": {
+        "chai": "^3.x.x",
+        "istanbul": "^0.x.x",
+        "jshint": "^2.x.x",
+        "mocha": "^2.x.x"
+    }
+}

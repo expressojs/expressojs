@@ -1,0 +1,7 @@
+.editorconfig
+/artifacts/
+/bin/
+/build/
+/coverage/
+lcov-*
+xunit*
